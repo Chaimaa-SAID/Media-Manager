@@ -1,35 +1,12 @@
-# === BACKEND (Spring Boot) ===
-/target/
-/bin/
-/out/
-*.log
-*.class
-*.jar
-*.war
-*.iml
-*.db
-*.h2.db
-*.sqlite
+# Node.js / Angular
+/StreamingApp-f/node_modules
+/StreamingApp-f/dist
 
-# IntelliJ / Eclipse
+# IntelliJ & Java
+/StreamingApp-b/target
+*.iml
 .idea/
-*.iws
-*.iml
-*.ipr
-.classpath
-.project
-.settings/
 
-# === FRONTEND (Angular) ===
-/node_modules/
-/dist/
-/.angular/
-/coverage/
-package-lock.json
-
-# === OS/Editor Files ===
+# OS files
 .DS_Store
 Thumbs.db
-.vscode/
-*.swp
-*.bak
